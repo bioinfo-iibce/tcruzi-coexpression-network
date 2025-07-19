@@ -49,3 +49,34 @@ if (!requireNamespace("BiocManager", quietly = TRUE))
 
 BiocManager::install(c("CEMiTool", "WGCNA", "clusterProfiler", "enrichplot", "rtracklayer", "ontologyIndex"))
 ```
+
+
+## 📂 Input Files
+```text
+- perfiles_expresion_rlog.csv -> RLOG-normalized expression matrix
+- perfiles_expresion_rlog_centrada.csv -> Centered matrix for profile plots
+- traits.csv -> Metadata for samples (used for correlation)
+- top650_hubgenes.txt -> List of hub genes for subnetworks visualization
+```
+
+## 📈 Output Highlights
+```text
+- Module-trait heatmaps: correlations between module eigengenes and traits.
+
+- Profile plots: expression dynamics across conditions.
+
+- GO enrichment: functional annotation per module and correlation sign.
+
+- Gene networks: submodule graphs of hub gene interactions.
+
+- Neighbor tables: CSVs with top coexpressed neighbors.
+```
+
+## 📣 Citation
+```text
+If you use this code, please cite:
+
+**[Exploring a gene co-expression network throughout the Trypanosoma cruzi life cycle]**  
+[Lucas Inchausti, Álvaro Martín, Leticia Pérez-Díaz, Beatriz Garat, María Ana Duhagon, José Sotelo-Silveira, Javier G. De Gaudenzi*, Pablo Smircich*]  
+DOI: [Coming soon]
+```
