@@ -1,4 +1,4 @@
-# Gene Coexpression Network Analysis in *Trypanosoma cruzi*
+# Gene Co-Expression Network Analysis in *Trypanosoma cruzi*
 
 This repository contains the code and data used to construct and analyze gene coexpression networks in *Trypanosoma cruzi* as part of our manuscript:
 
