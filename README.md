@@ -21,7 +21,7 @@ We performed gene co-expression network (GCN) analysis using transcriptomic data
 │   ├── perfiles_expresion_rlog.csv
 │   ├── perfiles_expresion_rlog_centrada.csv
 │   └── traits.csv
-│   └──top650_hubgenes.txt          # List of hub genes used in network visualization
+│   └── top650_hubgenes.txt          # List of hub genes used in network visualization
 ├── scripts/                      # All analysis R scripts
 ├── results/
 │   ├── all_modules_trait_relationships.png
