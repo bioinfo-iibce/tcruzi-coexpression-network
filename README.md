@@ -21,16 +21,14 @@ We performed gene co-expression network (GCN) analysis using transcriptomic data
 │   ├── perfiles_expresion_rlog.csv
 │   ├── perfiles_expresion_rlog_centrada.csv
 │   └── traits.csv
+│   └──top650_hubgenes.txt          # List of hub genes used in network visualization
 ├── scripts/                      # All analysis R scripts
 ├── results/
-│   ├── dissTOM.csv               # Dissimilarity matrix (TOM)
 │   ├── all_modules_trait_relationships.png
 │   ├── plots_profiles_segmented/
 │   ├── genes_by_module_correlation/
 │   ├── results_GO_ab/        # GO enrichment per module and correlation sign
-│   ├── subgrafo_*               # Subnetworks around selected genes
-│   └── vecinos_por_gen/         # Tables with neighbors of hub genes
-├── top650_hubgenes.txt          # List of hub genes used in network visualization
+│   └── neighbors/         # Tables with neighbors of hub genes
 └── README.md
 
 ```
