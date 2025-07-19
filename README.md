@@ -2,7 +2,7 @@
 
 This repository contains the code and data used to construct and analyze gene coexpression networks in *Trypanosoma cruzi* as part of our manuscript:
 
-**Exploring a gene co-expression network throughout the *Trypanosoma cruzi* life cycle**  
+**"Exploring a gene co-expression network throughout the *Trypanosoma cruzi* life cycle"**  
 Lucas Inchausti, Álvaro Martín, Leticia Pérez-Díaz, Beatriz Garat, María Ana Duhagon, José Sotelo-Silveira, Javier G. De Gaudenzi*, Pablo Smircich*
 [2025]
 
